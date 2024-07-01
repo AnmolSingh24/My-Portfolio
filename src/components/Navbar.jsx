@@ -1,18 +1,27 @@
+import { motion } from "framer-motion";
 import logo from "../assets/logo.png"
 import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-6">
-      <div className="flex flex-shrink-0 items-center">
+      <motion.div
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -80 }}
+        transition={{ duration: 1 }}
+        className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-20" src={logo} alt="logo" />
-      </div>
+      </motion.div>
 
-      <div className="m-8 flex justify-end items-center gap-4 text-2xl">
+      <motion.div
+        whileInView={{ opacity: 1, y: 0 }}
+        initial={{ opacity: 0, y: -80 }}
+        transition={{ duration: 1 }}
+        className="m-8 flex justify-end items-center gap-4 text-2xl">
         <FaLinkedin />
-        <FaInstagram />
-      </div>
+        <FaGithub />
+      </motion.div>
     </nav>
   )
 }
