@@ -1,6 +1,7 @@
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 import { RiReactjsLine } from "react-icons/ri";
 import { motion } from "framer-motion";
 
@@ -31,14 +32,14 @@ const Technologies = () => {
                 transition={{ duration: 1.5 }}
                 className='flex flex-wrap items-center justify-center gap-4'>
                 <motion.div
-                    variants={iconVariants(2.5)}
+                    variants={iconVariants(1.5)}
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 bg-neutral-800 p-4'>
                     <FaHtml5 className="text-4xl text-orange-600" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(4.5)}
+                    variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 bg-neutral-800 p-4'>
@@ -53,6 +54,13 @@ const Technologies = () => {
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4.5)}
+                    initial="initial"
+                    animate="animate"
+                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    <RiTailwindCssFill className="text-4xl text-cyan-400" />
+                </motion.div>
+                <motion.div
+                    variants={iconVariants(5.5)}
                     initial="initial"
                     animate="animate"
                     className='rounded-2xl border-4 bg-neutral-800 p-4'>
