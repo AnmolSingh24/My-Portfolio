@@ -17,7 +17,7 @@ const Projects = () => {
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
               className="w-82 h-[11rem] text-center bg-neutral-900 justify-center items-center p-3 rounded">
-              <img src={project.image} width={250} height={250} alt={project.title} className="mb-6 rounded" />
+              <img src={project.image} width={250} height={250} alt={project.title} className="mb-3 rounded" />
               <a href="https://vinix-chat-app.onrender.com">
                 <button className="text-center text-neutral-300 rounded-xl">View</button>
               </a>
