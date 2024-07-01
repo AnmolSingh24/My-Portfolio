@@ -22,10 +22,13 @@ const ContactUs = () => {
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
-          className="my-4">Email:
+          className="border-b border-neutral-700 pb-2 my-4">Email:
           <span> {CONTACT.email}</span>
         </motion.p>
       </div>
+      <p className="mt-4 text-center -m-3">
+        Made with ❤️ by Anmol Singh
+      </p>
     </div>
   )
 }
