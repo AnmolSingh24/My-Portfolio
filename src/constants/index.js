@@ -9,68 +9,28 @@ export const ABOUT_TEXT = `I am a dedicated and aspiring frontend developer with
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+    year: "Feb 2023 - Apr 2023",
+    role: "Frontend Developer Intern",
+    company: "Coding4All",
+    description: `• Integrated APIs into application, enhancing functionality.
+• Developed web pages using React , JavaScript , HTML and CSS and Responsive Web Design ensuring cross-browser compatibility and mobile responsiveness.
+• Collaborated with design team to implement interactive UI components using React, enhancing user experience and interface functionality.
+• Performed code reviews and debugging to identify and fix bugs, optimizing performance and improving overall quality of web applications.`,
+    technologies: ["HTML", "CSS", "Javascript", "React.js"],
+  }
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Chat Web Application",
     //image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    //image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    //image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    //image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+  }
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  phoneNo: "+91 7559195654 ",
+  email: "as0796348@gmail.com",
 };
