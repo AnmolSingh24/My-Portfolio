@@ -23,7 +23,7 @@ const ContactUs = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4">Email:
-          <span className="border-b"> {CONTACT.email}</span>
+          <span> {CONTACT.email}</span>
         </motion.p>
       </div>
     </div>
