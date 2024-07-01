@@ -35,35 +35,35 @@ const Technologies = () => {
                     variants={iconVariants(1.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    className='rounded-2xl border-4 bg-transparent p-4'>
                     <FaHtml5 className="text-4xl text-orange-600" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    className='rounded-2xl border-4 bg-transparent p-4'>
                     <FaCss3Alt className="text-4xl text-blue-600" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(3.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    className='rounded-2xl border-4 bg-transparent p-4'>
                     <SiJavascript className="text-4xl text-yellow-400" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(4.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    className='rounded-2xl border-4 bg-transparent p-4'>
                     <RiTailwindCssFill className="text-4xl text-cyan-400" />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(5.5)}
+                    variants={iconVariants(2.5)}
                     initial="initial"
                     animate="animate"
-                    className='rounded-2xl border-4 bg-neutral-800 p-4'>
+                    className='rounded-2xl border-4 bg-transparent p-4'>
                     <RiReactjsLine className="text-4xl text-cyan-400" />
                 </motion.div>
             </motion.div>

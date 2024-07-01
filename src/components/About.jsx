@@ -9,7 +9,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl">About <span className="text-neutral-500">Me</span>
+                className="my-20 text-center text-4xl">About
             </motion.h2>
             <div className="flex flex-wrap">
                 <motion.div
@@ -28,7 +28,6 @@ const About = () => {
                     className="w-full lg:w-1/2">
                     <div className="justify-center lg:justify-start">
                         <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
-                        <p>Email: <span className="text-neutral-400">as0796348@gmail.com</span></p>
                     </div>
                 </motion.div>
             </div>

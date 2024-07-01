@@ -1,4 +1,5 @@
-import project1 from "../assets/ChatWebApp.png";
+import project1 from "../assets/AirlineApp.jpg";
+import project2 from "../assets/ChatWebApp.png";
 
 
 export const HERO_CONTENT = `I am passionate about front-end development, eager to craft intuitive and engaging web experiences. Though I am new to the industry, I bring a strong foundation in HTML, CSS, and JavaScript. My enthusiasm drives me to learn frameworks like React.js, aiming to create seamless user interfaces. I am committed to leveraging my skills to contribute effectively to innovative projects and deliver exceptional user experiences.`;
@@ -20,11 +21,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Chat Web Application",
+    title: "Airlines Web Application",
+    url: "#",
     image: project1,
-    description:
-      "A fully functional chat application with features like  User Authentication, AI Chatbot, Voice notes, Image sharing and Group creation.",
-    technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+    description: "A flight booking application with features like user authentication, flight booking, and booking management.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+    status: "In development"
+  },
+  {
+    title: "Chat Web Application",
+    url: "https://vinix-chat-app.onrender.com",
+    image: project2,
+    description: "A fully functional chat application with features like  User Authentication, AI Chatbot, Voice notes, Image sharing and Group creation.",
+    technologies: ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS"],
+    status: "View"
   }
 ];
 
