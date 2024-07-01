@@ -19,8 +19,8 @@ const Navbar = () => {
         initial={{ opacity: 0, y: -80 }}
         transition={{ duration: 1 }}
         className="m-8 flex justify-end items-center gap-4 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
+        <a href="https://www.linkedin.com/in/anmol-singh2411/"><FaLinkedin /></a>
+        <a href="https://github.com/AnmolSingh24"><FaGithub /></a>
       </motion.div>
     </nav>
   )
