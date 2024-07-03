@@ -29,7 +29,7 @@ const Experience = () => {
                 <span className="text-sm text-purple-100">{experience.company}</span>
               </h6>
               {bulletPoints.map((point, index) => (
-                <p key={index} className="mb-2 text-neutral-400">
+                <p key={index} className="mb-2 text-neutral-400 text-justify">
                   {point}
                 </p>
               ))}
