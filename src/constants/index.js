@@ -6,15 +6,19 @@ export const HERO_CONTENT = `I am passionate about front-end development, eager 
 
 export const ABOUT_TEXT = `I am a dedicated and aspiring frontend developer with a passion for creating efficient and user-friendly web applications. Though I am new to the professional field, I am eager to work with technologies such as React.js. My journey in web development began with a deep curiosity for how things work, and it has evolved into a commitment to continuously learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
+export const bulletPoints = [
+  "• Integrated APIs into application, enhancing functionality.",
+  "• Developed web pages using React, JavaScript, HTML, and CSS, ensuring cross-browser compatibility and mobile responsiveness.",
+  "• Collaborated with the design team to implement interactive UI components using React, enhancing user experience and interface functionality.",
+  "• Performed code reviews and debugging to identify and fix bugs, optimizing performance and improving overall quality of web applications."
+];
+
 export const EXPERIENCES = [
   {
     year: "Feb 2023 - Apr 2023",
     role: "Frontend Developer Intern",
     company: "Coding4All",
-    description: `• Integrated APIs into application, enhancing functionality.
-• Developed web pages using React , JavaScript , HTML and CSS and Responsive Web Design ensuring cross-browser compatibility and mobile responsiveness.
-• Collaborated with design team to implement interactive UI components using React, enhancing user experience and interface functionality.
-• Performed code reviews and debugging to identify and fix bugs, optimizing performance and improving overall quality of web applications.`,
+    description: `${bulletPoints}`,
     technologies: ["HTML", "CSS", "Javascript", "React.js"],
   }
 ];
